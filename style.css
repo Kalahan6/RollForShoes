@@ -1,0 +1,44 @@
+body {
+	background-color: #f2f2f2;
+	padding: 10px;
+	max-width: 500px;
+	margin:0 auto;
+}
+.alert-info {
+	display: none;
+	margin-bottom: 3;
+}
+
+#header{
+  position:relative;
+}
+
+#btnRules {
+	font-size:22px;
+  position:absolute;
+  top:4px;
+  right:80px;
+}
+
+#btnSettings {
+	font-size:22px;
+  position:absolute;
+  top:4px;
+  right:40px;
+}
+
+#btnInfo {
+	font-size:22px;
+  position:absolute;
+  top:4px;
+  right:8px;
+}
+
+#btnAddSkill{
+	margin-top: 10px;
+}
+
+.block {
+	margin-top: 10px;
+}
+

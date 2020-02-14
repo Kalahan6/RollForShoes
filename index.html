@@ -1,0 +1,59 @@
+<div id=header>
+	<h4 id="title">For</h4>
+
+	<span><i class="far fa-question-circle" id="btnRules" aria-hidden="true"></i></span>
+	<div class="alert alert-info" id="pnlRules" role="alert">
+		<ul>
+			<li>Say what you do and roll a number of dice when the Game Master tells you to</li>
+			<li>If the sum of your roll is higher than the opposing roll (either another player or the DM), the thing you wanted
+				to happen, happens</li>
+			<li>The number of dice you roll is determined by the level of skill you have</li>
+			<li>At start, you have only one skill: Do anything 1</li>
+			<li>If you roll all sixes on your roll, you can get new skill one level higher than the one you used for the action.
+				The skill must be a subset of what happened to you in the action (Say, Athletics 2 if you were climbing a wall, or
+				Teeth of Biting 2 if
+				you were eating a cake)</li>
+			<li>For every roll you fail, you get 1 XP</li>
+			<li>XP can be used to change a die into a 6 for advancement purposes but not for success purpose</li>
+		</ul>
+	</div>
+
+	<span><i class="fa fa-sliders-h" id=btnSettings aria-hidden="true"></i></span>
+	<div class="alert alert-info" id="pnlSettings" role="alert">
+		Settings
+	</div>
+
+	<span><i class="fas fa-info" id="btnInfo" aria-hidden="true"></i></span>
+	<div class="alert alert-info" id="pnlInfo" role="alert">
+		<p>Roll for Shoes is a minimal tabletop role playing game created by Dweird and described in <a
+				href="http://story-games.com/forums/discussion/11348/microdungeons-i-roll-to-see-if-i-have-shoes-on/p1">this blog
+				post</a>.</p>
+		<p>Webapp developed by Kalahan</p>
+	</div>
+
+	<div class="alert alert-dark" id="pnlResults" role="alert">
+		Results
+	</div>
+	<div id="skills"></div>
+
+	<div class="skill">
+		<div class="input-group">
+			<div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-cog"></i></span></div>
+			<input type="text" class="form-control" class="skillName" value="Do Anything">
+			<div class=""><span class="input-group-text"><i class="fas fa-dice"></i></span></div>
+			<div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle input-group-append" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="#">Dropdown link</a>
+      <a class="dropdown-item" href="#">Dropdown link</a>
+    </div>
+  </div>
+		</div>
+		
+
+	</div>
+</div>
+<button type="button" class="btn btn-dark" id="btnAddSkill"><i class="fas fa-plus"></i> Add Skill</button>
+</div>
